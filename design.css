@@ -1,0 +1,157 @@
+@font-face {
+    font-family: "Bahnschrift";
+    src: url("/fonts/bahnschrift.eot"); /* IE9 Compat Modes */
+    src: url("/fonts/bahnschrift.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+      url("/fonts/bahnschrift.otf") format("opentype"), /* Open Type Font */
+      url("/fonts/bahnschrift.svg") format("svg"), /* Legacy iOS */
+      url("/fonts/bahnschrift.ttf") format("truetype"), /* Safari, Android, iOS */
+      url("/fonts/bahnschrift.woff") format("woff"), /* Modern Browsers */
+      url("/fonts/bahnschrift.woff2") format("woff2"); /* Modern Browsers */
+    font-weight: normal;
+    font-style: normal;
+  }
+
+
+#navigation {
+    width: 200px;
+    height: 1000px;
+    
+    float: left;
+    list-style-type: none;
+}
+#navigation ul {
+        font-size: 20px;
+        text-align: left;
+    
+    }
+header, nav, footer, aside, section {
+    display: block;
+    
+}
+header {
+    background-image: url(bilder/header.png);
+    text-align: left;
+    height: 100px
+ 
+}
+
+body {
+   
+    font-family: Bahnschrift;
+    background-image: url(bilder/default.png);
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+h1 {
+  color: white;
+  font-family: 'Bahnschrift';
+  font-size:50px;
+
+}
+
+aside {
+    
+    width: 175px;
+    float: right;
+}
+section {
+    
+    margin-left: 250px;
+    margin-right: 100px;
+    text-align: left
+}
+
+#wrapper {
+    
+    width: 900px;
+    margin: 0 auto;    
+    text-align: left;
+    background-image: url(./bilder/hintergrund-inhalt.png);
+   
+}
+
+details {
+   width: 150px;
+   text-align: left;
+}
+
+footer {
+    color: white;
+    clear: both;
+    background-image: url(bilder/durchsichtiges-grau.png);
+    text-align: center;
+    height: 1.5em;
+    line-height: 1.5em;
+}
+aside {
+    height: 1000px;
+}
+
+#osulogo{
+    margin-top: -125px;
+    margin-right: 1000px
+}
+
+#asidetext {
+    margin-left: 10px;
+   
+}
+.ueberschrift {
+    color: palevioletred;
+}
+
+ul{
+    margin-top: 50px;
+    
+}
+
+table.GeneratedTable {
+
+background-color:#FFFFFF;
+border-collapse:collapse;border-width:1px;
+border-color:#f31bd6;
+border-style:solid;
+columns: #000000;;
+margin-left: -7px;
+}
+
+table.GeneratedTable td, table.GeneratedTable th {
+border-width:1px;
+border-color:#f31bd6;
+border-style:solid;
+padding:3px;
+}
+
+table.GeneratedTable thead {
+background-color:rgb(195, 0, 255);
+}
+#bilder {
+    margin-left: 8.5px;
+    margin-top: 10px;
+}
+#video1 {
+    margin-right: -1500px;
+}
+
+#headerü {
+    margin-left: 150px;
+    margin-bottom: 10px;
+}
+#center {
+    text-align: center;
+}
+.img {
+    margin-left: 25px;
+}
+#modsu {
+    margin-left: 25px;
+}
+#modbilder {
+    margin-right: -150px;
+
+
+}
+#rank{
+    margin-left: 12px;
+}
